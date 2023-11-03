@@ -1,0 +1,1 @@
+CREATE TABLE `ospos_supplier_Ledgers` ( `ledger_id` int(10) NOT NULL, `ledger_time` timestamp NOT NULL DEFAULT current_timestamp(), `supplier_id` int(10) DEFAULT NULL, `employee_id` int(10) NOT NULL DEFAULT 0, `comment` text DEFAULT NULL, `reference` varchar(32) DEFAULT NULL, `debit_amount` int(11) NOT NULL, `credit_amount` int(11) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
